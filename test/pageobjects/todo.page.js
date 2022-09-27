@@ -18,7 +18,6 @@ class TodoPage {
 
     get editTaskButton() {
         return $('[resource-id="com.example.android.architecture.blueprints.todomvp.mock:id/fab_edit_task"]');
-        return $('[resource-id=""]');
     }
 
     get editTaskDoneButton() {

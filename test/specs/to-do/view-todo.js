@@ -1,4 +1,4 @@
-const ToDoPage = require('../pageobjects/todo.page');
+const ToDoPage = require('../../pageobjects/todo.page');
 
 describe('TO DO APP - View', () => {
     const titleToDo = 'New Title Task';

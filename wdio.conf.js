@@ -55,7 +55,7 @@ exports.config = {
     //
     capabilities: [{
         platformName: 'Android',
-        "appium:deviceName": "emulator-5556",
+        "appium:deviceName": "emulator-5554",
         "appium:automationName": "UIAutomator2",
         "appium:app": path.join(process.cwd(), "./app/android/TODOApp.apk"),
         "appium:platformVersion": "13"

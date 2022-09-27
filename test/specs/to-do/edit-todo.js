@@ -1,11 +1,8 @@
-const ToDoPage = require('../pageobjects/todo.page');
+const ToDoPage = require('../../pageobjects/todo.page');
 
 describe('TO DO APP - Edit', () => {
     const titleToDo = 'New Title Task';
     const toDoList = 'New To Do List';
-    beforeEach(async () => {
-    })
-
     it('As a user, I want to edit an existing to-do', async () => {
         await ToDoPage.addTaskButton.click();
         await ToDoPage.newTaskTitleField.addValue(titleToDo);
